@@ -1,0 +1,202 @@
+@media (max-width:640px){
+	.logo{
+		/*position:absolute;*/
+		margin: 0;
+		position:relative;
+		top:-12px;left: -120px;	
+	}
+	.he_ZoomInImg{
+		margin-left:-11px;
+	}
+	.footer{
+		display: none;
+	}
+}
+body{
+	background: #EDEDED;
+}
+.navbar-header .logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 150px;
+	position:absolute;
+	/*text-align: center;
+	line-height: 50px;*/
+	background: url(../images/logo.png) no-repeat;
+	background-size:50px;
+	background-position: 0px  0px;
+}
+.navigation1{
+	margin-top: 30px;
+	/*margin: 0;*/
+	margin-right: 0;
+}
+.navigation1 li{
+	margin: 0;
+}
+.people{
+	width: 20px;
+	height: 20px;
+	/*margin-top: 15px;*/
+	/*margin-left: 15px;*/
+	/*position:absolute;*/
+	/*background: url(../img/xiaotubiao.png) no-repeat;
+	background-size:30px;
+	background-position:-15px -7px ;*/
+}
+.navigation1 li{
+	margin-right: 50px;
+}
+.navs{
+	background: #EDEDED;
+}
+.navigation2{
+	/*margin-top: 30px;*/
+
+	margin-left: 115px;
+}
+.navigation2 li{
+	padding-left:20px;
+}
+.caption p{
+	text-align: center;
+	color:red;
+}
+	/*精品配件*/
+.caption h5{
+	text-align: center;
+}
+.caption h6{
+	text-align: center;
+}
+.jppj{
+	text-align: center;
+	/*margin-left: 300px;*/
+}
+.hotdoor{
+	margin-bottom: 0;
+}
+.hotdoor_img{
+	height: 400px;
+}
+.hotdoor_img .thumbnail{
+	margin-bottom: 0;
+}
+.hotdoor_img .col-md-6{
+	height: 400px;
+	padding: 0;
+}
+.hotdoor .col-md-3{
+	/*height: 400px;*/
+	padding: 0;
+}
+.hotdoor_img .thumbnail{
+	background: #EDEDED;
+	border:0px;
+}
+.thumbnail{
+	padding: 0;
+}
+.thumbnail .jg{
+	width: 800px;
+	height: 393px;
+}
+.chosen_img{
+	margin-left: 0;
+	margin-top: 0px;
+	/*position:relative;*/
+}
+.chosen_img .thumbnail{
+	margin-bottom: 0;
+}
+.chosen_img .col-md-3{
+	margin-top: -4px;
+	padding: 0;
+}
+	/*热卖推荐*/
+.forum img{
+	display: block;
+	border-radius: 4px;
+	width: 100%;
+	height: 156px;
+}
+.zong{
+	margin-top: 40px;
+}
+	/*热卖推荐特效*/
+.he_ZoomInImg{/*background:#000;*/position:relative;cursor:pointer;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
+.he_ZoomInImg .he_ZoomInImg_img{position:relative;display:block;width:100%;/*padding:0;margin:0;*/opacity:1;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
+.he_ZoomInImg:hover .he_ZoomInImg_img{opacity:.7;-webkit-transform:scale(1.3);-moz-transform:scale(1.3);-o-transform:scale(1.3);-ms-transform:scale(1.3);transform:scale(1.3)}
+.he_ZoomInImg .he_ZoomInImg_caption{color:#000;-moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;transition:all .4s ease-in-out;overflow:hidden}
+.he_ZoomInImg .he_ZoomInImg_caption_p{font-size:1em;text-align:center;width:80%;position:absolute;top:45%;left:10%;-webkit-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-o-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;transition:all .6s ease-in-out;overflow:hidden;opacity:0}
+.he_ZoomInImg:hover .he_ZoomInImg_caption_p{color:black;opacity:1}
+/*footer*/
+ul,li{
+	margin: 0;padding: 0;
+	list-style:none;
+}
+.footer{
+	margin-top: 0px;
+	background: #FAFAFA;
+}
+.con{
+	background: ##FAFAFA;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+.rows{
+	padding: 100px 0 32px;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+.rows span{
+	color:#646464;
+	font-size:14px;
+}
+.rows li{
+	color:#969696;
+	font-size:12px;
+}
+.nav-footer{
+	float: left;
+	margin: 0;padding: 0;
+}
+.two{
+	float: right;
+
+	margin-right: -240px;
+}
+.two span{
+	font-size:28px;
+}
+.two p{
+	color:#969696;
+
+}
+.rows2 .col-md-10{
+	margin: 30px auto;
+}
+.rows2 p{
+	color:#969696;
+	font-size:12px;
+}
+.rows2 span{
+	font-size:14px;
+	color:#646464;
+}
+.guoqi img{
+	width: 20px;
+	height: 15px;
+}
+/*特效*/
+.go_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    cursor: pointer;
+    background: url(../images/TOP.png);
+}
+

@@ -1,0 +1,297 @@
+@media (max-width:640px){
+	body{
+		margin: 0;padding: 0;
+	}
+	.logo{
+		margin: 0;
+		position:relative;
+		top:-12px;left: -120px;	
+	}
+	.connr{
+		padding: 0 20px;
+	}
+	.left{
+		margin-left: 0px;
+	}
+	.smalls{
+		width: 300px;
+		height: 300px;
+		margin-left: -40px;
+		position:absolute;
+	}
+	.smalls img{
+		width: 370px;
+		height: 370px;
+	}
+	.uimg{
+		margin-top: 0;
+	}
+	.wg{
+		/*float:left;*/
+		margin-top: 20px;
+	}
+	.types{
+		margin-top: 40px;
+	}
+
+	.navs{
+		display:none;
+	}
+	.imgmove{
+		margin-top: -10px;
+	}
+	.hotdoor button{
+		display:none;
+	}
+	.footer{
+		display: none;
+	}
+}
+body{
+	background: #EDEDED;
+}
+.navbar-header .logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 150px;
+	position:absolute;
+	/*text-align: center;
+	line-height: 50px;*/
+	background: url(../images/logo.png) no-repeat;
+	background-size:50px;
+	background-position: 0px  0px;
+}
+.navigation1{
+	margin-top: 30px;
+	/*margin: 0;*/
+	margin-right: 0;
+}
+.navigation1 li{
+	margin: 0;
+}
+.navigation1 .people{
+	width: 30px;
+	height: 30px;
+	/*position:absolute;*/
+	background: url(../images/gwc.png) no-repeat;
+	background-size:30px;
+	background-position:-93px 0px ;
+}
+.navigation1 li{
+	margin-right: 50px;
+}
+.people{
+	width: 20px;
+	height: 20px;
+}
+.navs{
+	background: #EDEDED;
+}
+.navigation2{
+	/*margin-top: 30px;*/
+
+	margin-left: 115px;
+}
+.navigation2 li{
+	padding-left:20px;
+}
+.r{
+	margin-right: 40px;
+}
+/*内容*/
+.conf{
+	background: #FFFFFF;
+}
+.connr{
+	background: #FFFFFF;
+}
+.row .left{
+	padding: 0;
+}
+.smalls{
+	width: 460px;
+	height: 460px;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: relative;
+}
+.simg{
+	width: 460px;
+	height: 460px;
+	top:0px;left:0px;
+}
+.bigs{
+	width: 350px;
+	height: 350px;
+	top:20px;
+	left:460px;
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+.move{
+	width: 100px;
+	height: 100px;
+	background: url(../img/bg.png);
+	position: absolute;
+	top:0px;left:0px;
+	display: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+.uimg{
+	/*width: 300px;
+	height: 80px;*/
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.uimg li{
+	/*width: 80px;
+	height: 80px;*/
+	float: left;
+	margin-right: 5px;
+	border:1px solid #E5E5E5;
+}
+.uimg li img{
+	width: 80px;
+	height: 80px;
+}
+.row .right{
+	margin-top: 20px;
+}
+.right p{
+	color:#DC4D44;
+}
+.right span{
+	color:#666666;
+}
+.select{
+	margin-top: 20px;
+}
+.configure1{
+	margin-right: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+	width: 220px;
+	float:left;
+	border:1px solid #E5E5E5;
+	border-radius:5%;
+}
+.configure1:hover{
+	background: #EDEDED;
+}
+.configure1 h6{
+	color:#999;
+}
+#texts{
+	font-size:12px;
+	margin-left:110px;
+	color:#7A7A7A;
+}
+#texts span{
+	font-weight:bold;
+}
+.wg{
+	margin-top: 20px;
+}
+.black{
+	width: 40px;
+	height: 40px;
+	float:left;
+	margin: 10px;
+	background: url(../img/black.png) no-repeat;
+	background-size:40px;
+}
+.types span{
+	padding: 20px;
+	float:left;
+}
+.red{
+	width: 40px;
+	height: 40px;
+	float:left;
+	margin: 10px;
+	background: url(../img/red.png) no-repeat;
+	background-size:40px;
+}
+.special{
+	width: 40px;
+	height: 40px;
+	float:left;
+	margin: 10px;
+	background: url(../img/blackglob.png) no-repeat;
+	background-size:40px;
+}
+.golden{
+	width: 40px;
+	height: 40px;
+	float:left;
+	margin: 10px;
+	background: url(../img/white.png) no-repeat;
+	background-size:40px;
+}
+.configure1 a{
+	text-decoration:none;
+}
+/*footer*/
+ul,li{
+	margin: 0;padding: 0;
+	list-style:none;
+}
+.footer{
+	margin-top: 5px;
+	background: #FAFAFA;
+}
+.con{
+	background: ##FAFAFA;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+.rows{
+	padding: 100px 0 32px;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+.rows span{
+	color:#646464;
+	font-size:14px;
+}
+.rows li{
+	color:#969696;
+	font-size:12px;
+}
+.nav-footer{
+	float: left;
+	margin: 0;padding: 0;
+}
+.two{
+	float: right;
+
+	margin-right: -240px;
+}
+.two span{
+	font-size:28px;
+}
+.two p{
+	color:#969696;
+
+}
+.rows2 .col-md-10{
+	margin: 30px auto;
+}
+.rows2 p{
+	color:#969696;
+	font-size:12px;
+}
+.rows2 span{
+	font-size:14px;
+	color:#646464;
+}
+.guoqi img{
+	width: 20px;
+	height: 15px;
+}

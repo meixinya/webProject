@@ -1,0 +1,319 @@
+@media (max-width:640px){
+	.logo{
+		/*position:absolute;*/
+		margin: 0;
+		position:relative;
+		top:-12px;left: -120px;	
+	}
+	.container{
+		margin-left: -10px;
+	}
+	.evenflow_scale{
+		margin-left: -10px;
+	}
+	.navs{
+		display:none;
+	}
+	.imgmove{
+		margin-top: -10px;
+	}
+	.hotdoor button{
+		display:none;
+	}
+	.footer{
+		display: none;
+	}
+}
+
+body{
+	background: #EDEDED;
+}
+.navbar-header .logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 150px;
+	position:absolute;
+	/*text-align: center;
+	line-height: 50px;*/
+	background: url(../images/logo.png) no-repeat;
+	background-size:50px;
+	background-position: 0px  0px;
+}
+.navigation1{
+	margin-top: 30px;
+	/*margin: 0;*/
+	margin-right: 0;
+}
+.navigation1 li{
+	margin: 0;
+}
+.people{
+	width: 20px;
+	height: 20px;
+	/*margin-top: 15px;*/
+	/*margin-left: 15px;*/
+	/*position:absolute;*/
+	/*background: url(../img/xiaotubiao.png) no-repeat;
+	background-size:30px;
+	background-position:-15px -7px ;*/
+}
+.navigation1 li{
+	margin-right: 50px;
+}
+.navs{
+	background: #EDEDED;
+}
+.navigation2{
+	/*margin-top: 30px;*/
+
+	margin-left: 115px;
+}
+.navigation2 li{
+	padding-left:20px;
+}
+
+/*轮播*/
+.imgmove{
+	margin-top: 0px;
+}
+/*内容*/
+	/*内容1*/
+
+.substance1{
+	margin-top: 30px;
+	margin-left: 0;
+}
+.substance1 .col-md-3{
+	margin: 0;padding: 0;
+}
+.substance1 #yuanjiao{
+	border-radius:3%;
+}
+	/*内容1特效*/
+.evenflow { 
+	display: inline-block; 
+}
+.evenflow:after {
+ content: "."; 
+ display: block; 
+ clear: both; 
+ visibility: hidden;
+  line-height: 0; height: 0; 
+}
+.evenflow .evenflow_scale {
+  display:block;
+  float:left;
+  max-width:400px;
+  line-height:0;
+  transition:all 0.25s ease;
+}
+.evenflow .evenflow_scale img{
+	width:100%;
+}
+.evenflow_scale { transition:transform 0.25s ease;	}
+.evenflow_scale:hover { transform:scale(1.25,1.25); }
+	/*热门商品*/
+.hotdoor{
+	/*padding: 0;*/
+	margin-top: 30px;
+}
+.hot{
+	margin-right: -17px;
+}
+.hotdoor_img{
+	margin-top: -21px;
+	margin-left: 0;
+}
+.hotdoor_img .thumbnail{
+	padding: 0;
+	padding-right: 1px;
+	padding-top: 1px;
+}
+.hotdoor_img .col-md-3{
+	margin: 0;padding: 0;
+}
+.hotdoor_img .caption{
+	background: #FFFFFF;
+	text-align: center;
+}
+.caption h5{
+	text-align: center;
+	color:#424242;
+}
+.caption h6 span{
+	color:#DE4037;
+}
+.caption h6{
+	text-align: center;
+	color:#BABABA;
+}
+.caption p{
+	text-align: center;
+	color:red;
+	font-weight:bold;
+}
+	/*热门商品特效*/
+.con4_main{
+    /*width: 960px;
+    height: 480px;*/
+    background-color: #ffffff;
+    /*margin: 0 auto;*/
+    position: relative;
+    overflow: hidden;
+}
+.con4_main_i{
+    /*position: absolute;*/
+   /* width: 1920px;
+    height: 480px;*/
+    /*left: 0;*/
+}
+.con4_main_i>div{
+    /*float: left;*/
+    /*position: relative;*/
+    cursor: pointer;
+}
+.con4_itext{
+    position: absolute;
+    /*display:none;*/
+    bottom: -240px;
+    width: 200px;
+    height: 240px;
+    background-color: rgba(0,0,0,0.7);
+    /*color: #FF6600;*/
+    /*font-weight: bold;*/
+    /*font-size: 25px;*/
+}
+.con4_itext p:nth-child(1){
+    font-size: 15px;
+    color: darkgray;
+}
+.con4_itext p:nth-child(2){
+    font-size: 12px;
+    color: darkgray;
+}
+	/*官方精选*/
+.hotdoor_img{
+	height: 400px;
+}
+.hotdoor_img .thumbnail{
+	margin-bottom: 0;
+}
+.hotdoor_img .col-md-6{
+	height: 400px;
+	padding: 0;
+}
+.hotdoor .col-md-3{
+	/*height: 400px;*/
+	padding: 0;
+}
+.hotdoor_img .thumbnail{
+	background: #EDEDED;
+	border:0px;
+}
+.thumbnail .jg{
+	width: 800px;
+	height: 393px;
+}
+.chosen_img{
+	margin-left: 0;
+	margin-top: 0px;
+	/*position:relative;*/
+}
+.chosen_img .thumbnail{
+	margin-bottom: 0;
+}
+.chosen_img .col-md-3{
+	margin-top: -4px;
+	padding: 0;
+}
+	/*官方精选特效*/
+	/*锤子科技动态*/
+.hotdoor .chuizi{
+	margin-bottom: 0;
+}
+.hotdoor .substance1{
+	margin-top: 0;
+}
+	/*锤子应用*/
+.forum img{
+	display: block;
+	border-radius: 4px;
+	width: 100%;
+	height: 156px;
+}
+/*footer*/
+ul,li{
+	margin: 0;padding: 0;
+	list-style:none;
+}
+.footer{
+	margin-top: 0px;
+	background: #FAFAFA;
+}
+.con{
+	background: ##FAFAFA;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+.rows{
+	padding: 100px 0 32px;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+}
+.rows span{
+	color:#646464;
+	font-size:14px;
+}
+.rows li{
+	color:#969696;
+	font-size:12px;
+}
+.nav-footer{
+	float: left;
+	margin: 0;padding: 0;
+}
+.two{
+	float: right;
+
+	margin-right: -240px;
+}
+.two span{
+	font-size:28px;
+}
+.two p{
+	color:#969696;
+
+}
+.rows2 .col-md-10{
+	margin: 30px auto;
+}
+.rows2 p{
+	color:#969696;
+	font-size:12px;
+}
+.rows2 span{
+	font-size:14px;
+	color:#646464;
+}
+.guoqi img{
+	width: 20px;
+	height: 15px;
+}
+/*特效*/
+.go_top{
+   /* background-color: #01A79D;
+    color: white;*/
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+   /* font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;*/
+    cursor: pointer;
+    background: url(../images/TOP.png);
+}
+
